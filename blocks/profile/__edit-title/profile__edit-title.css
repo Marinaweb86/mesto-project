@@ -1,0 +1,12 @@
+.profile__edit-title {
+  margin: 0;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .profile__edit-title {
+    margin-bottom: 14px;
+  }
+}

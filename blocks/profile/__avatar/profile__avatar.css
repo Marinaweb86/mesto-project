@@ -1,0 +1,15 @@
+.profile__avatar {
+  width: 168.75px;
+  height: 127.5px;
+  margin: 0;
+  margin-left: -22.5px;
+  margin-right: 3.75px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .profile__avatar {
+    margin-bottom: 26px;
+  }
+}

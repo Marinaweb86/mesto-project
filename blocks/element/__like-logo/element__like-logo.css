@@ -1,0 +1,13 @@
+.element__like-logo {
+  width: 22px;
+  height: 19px;
+}
+
+.element__like-logo:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.element__like-logo:active {
+  background: url(../images/like-active.svg);
+}
