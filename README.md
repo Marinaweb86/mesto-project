@@ -19,6 +19,7 @@
  -Реализация модального окна;
  Разработка интерфейса для разных устройств.
  
+ 
  [Ссылка макет проекта](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=28212%3A155)
  
  [Ссылка на сайт](https://marinaweb86.github.io/mesto-project/index.html)
