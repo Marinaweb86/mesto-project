@@ -2,6 +2,8 @@
   width: 32px;
   height: 32px;
   margin: 0;
+  border: 0;
+  padding: 0;
   position: absolute;
   top: calc(50% - 165px - 56px);
   right: calc(50% - 215px - 40px);
@@ -9,7 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #000;
+  background-color: transparent;
 }
 
 .popup__close-button:hover {
@@ -21,7 +23,7 @@
   .popup__close-button {
     width: 20px;
     height: 20px;
-    top: calc(50% - 161px - 50px);
+    top: calc(50% - 161px - 30px);
     right: calc(50% - 161px + 20px);
   }
 }

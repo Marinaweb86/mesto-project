@@ -1,6 +1,11 @@
 .element__like-logo {
   width: 22px;
   height: 19px;
+  background-image: url(../../../images/like.svg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
 }
 
 .element__like-logo:hover {
@@ -9,5 +14,5 @@
 }
 
 .element__like-logo:active {
-  background: url(../images/like-active.svg);
+  background-image: url(../../../images/like-active.svg);
 }

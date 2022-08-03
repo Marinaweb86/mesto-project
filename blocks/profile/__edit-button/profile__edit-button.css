@@ -2,11 +2,13 @@
   width: 24px;
   height: 24px;
   margin: 0;
-  align-self: flex-end;
+  margin-top: 15px;
+  margin-left: 18px;
   background-image: url(../../../images/pen.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: transparent;
+  background-size: 10px;
   border: 1px solid white;
 }
 
@@ -15,11 +17,12 @@
   cursor: pointer;
 }
 
-media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .profile__edit-button {
     width: 18px;
     height: 18px;
-    align-self: center
+    margin-top: 8px;
+    margin-left: 10px;
+    background-size: 7.5px;
   }
 }
-
