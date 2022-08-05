@@ -1,5 +1,5 @@
 .profile__paragraph {
-  width: 336px;
+  max-width: 336px;
   margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .profile__paragraph {
-    width: 282px;
+    max-width: 282px;
     font-size: 14px;
     line-height: 17px;
     text-align: center;

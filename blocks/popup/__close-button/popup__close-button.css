@@ -5,8 +5,8 @@
   border: 0;
   padding: 0;
   position: absolute;
-  top: calc(50% - 165px - 56px);
-  right: calc(50% - 215px - 40px);
+  top: -40px;
+  right: -40px;
   background-image: url(../../../images/Close-Icon.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@
   .popup__close-button {
     width: 20px;
     height: 20px;
-    top: calc(50% - 161px - 30px);
-    right: calc(50% - 161px + 20px);
+    top: -36px;
+    right: 0;
   }
 }

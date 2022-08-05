@@ -2,6 +2,7 @@
   max-width: 294px;
   margin: 0;
   margin-right: auto;
+  padding-bottom: 7px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -16,7 +17,6 @@
   .profile__title {
     width: 189px;
     margin-right: 0;
-    margin-bottom: 14px;
     font-size: 26px;
     line-height: 33px;
   }
