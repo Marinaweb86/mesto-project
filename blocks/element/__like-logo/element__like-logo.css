@@ -5,6 +5,7 @@
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
+  transition: opasity 0.2s;
   border: 0;
 }
 
@@ -13,6 +14,7 @@
   cursor: pointer;
 }
 
-.element__like-logo:active {
+.element__like-logo_active {
   background-image: url(../../../images/like-active.svg);
+  opacity: 1;
 }
