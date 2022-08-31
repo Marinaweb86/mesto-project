@@ -6,8 +6,7 @@ const elementCard = document.querySelector('.element');
 const elements = document.querySelector('.elements');
 const elementTemplate = document.querySelector('#element_template').content;
 const popupEdit = document.querySelector('.popup__edit');
-const popupForm = document.querySelector('.popup__form');
-const profileForm = document.querySelector('.popup__fieldset');
+const profileForm = document.querySelector('.popup__form');
 const nameInput = document.querySelector('.popup__input_type_name');
 const jobInput = document.querySelector('.popup__input_type_description');
 const inputTitle = document.querySelector('.popup__input_type_title');
@@ -66,7 +65,9 @@ closeButtons.forEach((button) => {
 
 //открытие popupEdit
 editProfileButton.addEventListener('click', () => {
-  openPopup(popupEdit) ;
+  openPopup(popupEdit);
+  nameInput.value = profileTitle.textContent;
+  jobInput.value = profileParagraph.textContent;
 });
 
 //сохранение popupEdit
@@ -125,7 +126,7 @@ function handlePopupFormSubmit(event) {
     item['link'] = inputUrl.value;
 
   renderCard(createNewCard(item));
- popupForm.reset();
+  event.target.reset();
   closePopup(addCardPopup);
 }
 
